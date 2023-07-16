@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterSuccessActivity">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/logo_success"
+        android:id="@+id/logo_registrasi_sukses"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register Successs"
+        android:textSize="20sp"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/logo_registrasi_sukses"
+        android:fontFamily="@font/poppins"
+        android:id="@+id/tv_registrasi_berhasil"/>
+
+    <Button
+        android:id="@+id/btn_login_succees"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tv_registrasi_berhasil"
+        android:text="Login"
+        android:textSize="25sp"
+        android:backgroundTint="@color/Orange"/>
+
+</RelativeLayout>
